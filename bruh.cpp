@@ -38,10 +38,17 @@ while (ver<=n)
     hor--;
         if(!vch)
         {
-          if(ver==1) {ver=x;vch=1;}
+          if(ver==1)
+          {
+           ver=x;
+           vch=1;
+          }
           else ver--;
         }
-         if(vch) ver++;
+         if(vch)
+         {
+          ver++;
+         }
          first=1;
     }
    else
@@ -57,10 +64,20 @@ while (ver<=n)
         
          if(!vch)
         {
-          if(ver==1) {ver=x;vch=1;}
-          else ver--;
+          if(ver==1) 
+          {
+           ver=x;
+           vch=1;
+          }
+          else 
+          {
+           ver--;
+          }
         }
-         if(vch) ver++;
+         if(vch) 
+         {
+          ver++;
+         }
      
     chk=1;
     }
@@ -74,10 +91,20 @@ while (ver<=n)
          hor--;
          if(!vch)
         {
-          if(ver==1) {ver=x;vch=1;}
-          else ver--;
+          if(ver==1)
+          {
+           ver=x;
+           vch=1;
+          }
+          else 
+          {
+           ver--;
+          }
         }
-         if(vch) ver++;
+         if(vch)
+         {
+          ver++;
+         }
          chk=0;
     }
       
